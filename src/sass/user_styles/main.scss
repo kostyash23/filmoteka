@@ -1,0 +1,24 @@
+.non-active-section {
+  display: none;
+}
+
+.header__link--active {
+  color: #372c48;
+  border-bottom: 3px solid #372c48;
+}
+
+main {
+  min-height: calc(100vh - 86px - 64px);
+}
+
+// @media (min-width: 768px) {
+//   .non-active-section {
+//     display: none;
+//   }
+// }
+
+// @media (min-width: 1024px) {
+//   .non-active-section {
+//     display: none;
+//   }
+// }

@@ -1,0 +1,17 @@
+/*
+   Import partials below
+*/
+@import "./normalize";
+@import "./reset";
+
+@import "./fonts";
+
+@import "./user_styles/header.scss";
+@import "./user_styles/footer.scss";
+
+@import "./user_styles/detailsPage.scss";
+@import "./user_styles/homePage.scss";
+@import "./user_styles/myFilmLibraryPage.scss";
+@import "./user_styles/myTeam.scss";
+
+@import "./user_styles/main.scss";

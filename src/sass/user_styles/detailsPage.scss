@@ -1,0 +1,191 @@
+.film-card {
+  padding: 20px 22px;
+}
+
+.card-details {
+  width: 274px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-details__img {
+  display: block;
+  height: 402px;
+  width: 274px;
+  margin-bottom: 18px;
+  background-image: url("../images/default_poster.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-details__title,
+.card-details__about--title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.6px;
+  line-height: 20px;
+  color: rgb(55, 44, 72);
+  margin-bottom: 12px;
+}
+
+.card-details__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3px;
+  line-height: 25.7px;
+  color: rgb(0, 0, 0);
+  margin-bottom: 20px;
+}
+
+.card-details__votes,
+.card-details__name,
+.card-details__popularity,
+.card-details__genre {
+  display: flex;
+  padding-left: 15px;
+}
+
+.card-details__votes--title,
+.card-details__name--title,
+.card-details__popularity--title,
+.card-details__genre--title {
+  width: 136px;
+}
+
+.card-details__votes--value,
+.card-details__name--value,
+.card-details__popularity--value,
+.card-details__genre--value {
+  max-width: 130px;
+}
+
+.card-details__votes,
+.card-details__name {
+  background-color: rgb(173, 218, 214);
+}
+
+.card-details__about--text,
+.card-details__action-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: rgb(55, 44, 72);
+  margin-bottom: 12px;
+}
+
+.card-details__action-btn {
+  display: block;
+  margin: 0;
+  border: none;
+  background: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.card-details__action-btn:hover {
+  cursor: pointer;
+}
+
+.card-details__action-text {
+  line-height: 30px;
+}
+
+@media (min-width: 768px) {
+  .card-details {
+    width: 724px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card-details__img {
+    height: 526px;
+    width: 356px;
+  }
+
+  .card-details__title {
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-details__wrapper {
+    width: 338px;
+  }
+
+  .card-details__votes--title,
+  .card-details__name--title,
+  .card-details__popularity--title,
+  .card-details__genre--title {
+    width: 168px;
+  }
+
+  .card-details__votes--value,
+  .card-details__name--value,
+  .card-details__popularity--value,
+  .card-details__genre--value {
+    max-width: 150px;
+  }
+
+  .card-details__description,
+  .card-details__about {
+    margin-bottom: 30px;
+  }
+
+  .card-details__actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+}
+
+@media (min-width: 1024px) {
+  .film-card {
+    padding: 26px 60px;
+  }
+
+  .card-details {
+    width: 904px;
+  }
+
+  .card-details__img {
+    height: 630px;
+    width: 438px;
+  }
+
+  .card-details__wrapper {
+    width: 430px;
+  }
+
+  .card-details__votes--title,
+  .card-details__name--title,
+  .card-details__popularity--title,
+  .card-details__genre--title {
+    width: 214px;
+  }
+
+  .card-details__votes--value,
+  .card-details__name--value,
+  .card-details__popularity--value,
+  .card-details__genre--value {
+    max-width: 200px;
+  }
+
+  .card-details__actions {
+    width: 70%;
+  }
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}

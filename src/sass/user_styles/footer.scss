@@ -1,0 +1,42 @@
+.footer__container {
+  margin: 0 auto;
+  min-width: 320px;
+  background-color: #77c1bb;
+}
+
+.footer__txt {
+  padding: 34px 0 36px 0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #372c48;
+  text-align: center;
+}
+
+.button-fix {
+  z-index: 1;
+  display: none;
+  position: fixed;
+  margin-bottom: -20px;
+  bottom: 34px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.55);
+  background-color: #77c1bb;
+  background-image: url(../images/button-fix.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@media (min-width: 768px) {
+  .button-fix {
+    display: none;
+  }
+}

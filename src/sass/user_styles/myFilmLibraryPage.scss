@@ -1,0 +1,191 @@
+.myFilmLibraryPage__container {
+  margin: 0 auto;
+  width: 300px;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+}
+
+.myFilmLibraryPage__modes {
+  width: 100%;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myFilmLibraryPage__modes button {
+  width: 142px;
+  height: 42px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.button__white {
+  background: none;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.button__colored {
+  background-color: #77c1bb;
+  border: none;
+  color: #fff;
+}
+
+.myFilmLibraryPage__modes button:hover {
+  background-color: #77c1bb;
+  color: #fff;
+  border: none;
+  transition: 0.2s;
+}
+
+.myFilmLibraryPage__film-card {
+  width: 100%;
+  position: relative;
+}
+
+.myFilmLibraryPage__film-card img {
+  width: 100%;
+}
+
+.myFilmLibraryPage__film-title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 12.3px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  z-index: 2;
+}
+
+.myFilmLibraryPage__rating {
+  width: 31px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  text-align: center;
+  line-height: 16px;
+}
+
+.storage__empty {
+  font-size: 26px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.film {
+  padding-bottom: 10px;
+}
+
+.film::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  background-image: linear-gradient(
+    to bottom,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0) 70%,
+    rgba(0, 0, 0, 1)
+  );
+  z-index: 1;
+}
+
+.film img {
+  border-radius: 10px;
+}
+
+@media (min-width: 768px) {
+  .myFilmLibraryPage__container {
+    margin: 0 auto;
+    width: 710px;
+  }
+
+  .myFilmLibraryPage__rating {
+    width: 40px;
+    height: 20px;
+    right: 8px;
+    top: 8px;
+    line-height: 20px;
+  }
+
+  .myFilmLibraryPage__film-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .myFilmLibraryPage__film-card li {
+    width: 346px;
+  }
+
+  .myFilmLibraryPage__film-title {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14.3px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .myFilmLibraryPage__container {
+    margin: 0 auto;
+    width: 956px;
+  }
+
+  .myFilmLibraryPage__film-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .myFilmLibraryPage__film-title {
+    font-size: 19.2px;
+  }
+
+  .myFilmLibraryPage__film-card li {
+    width: 466px;
+  }
+}
+
+// .new__class {
+//   text-align: center;
+// }
+
+.footer__link {
+  color: blue;
+  cursor: pointer;
+}
+
+// .contacts {
+//   margin: 0 auto;
+// }
+
+// .contacts__info {
+//   font-size: 20px;
+//   padding-top: 20px;
+//   // margin-bottom: 20px;
+// }
+
+// .contacts__info--last {
+//   height: 20px;
+// }

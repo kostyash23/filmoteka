@@ -1,0 +1,56 @@
+.myTeam {
+  width: 100%;
+}
+
+.new__class {
+  text-align: center;
+  list-style: none;
+}
+
+.contacts {
+  margin: 30px auto;
+  // margin-top: 30px;
+}
+
+.person {
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding-top: 20px;
+
+  &:last-child {
+    margin-bottom: 0;
+  }
+
+  &__name {
+    font-size: 30px;
+    font-family: "Roboto";
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+
+  &__socials {
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+    width: 150px;
+  }
+
+  &__socials-icon {
+    background-size: contain;
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 40px;
+
+    &--github {
+      background-image: url("../images/github-sign.svg");
+    }
+
+    &--facebook {
+      background-image: url("../images/facebook.svg");
+    }
+
+    &--linkedin {
+      background-image: url("../images/linkedin.svg");
+    }
+  }
+}

@@ -1,0 +1,1164 @@
+/*
+   Import partials below
+*/
+
+/*! normalize.css v8.0.0 | MIT License | github.com/necolas/normalize.css */
+
+/* Document
+   ========================================================================== */
+
+/**
+ * 1. Correct the line height in all browsers.
+ * 2. Prevent adjustments of font size after orientation changes in iOS.
+ */
+
+html {
+  line-height: 1.15;
+  /* 1 */
+  -webkit-text-size-adjust: 100%;
+  /* 2 */
+}
+
+/* Sections
+     ========================================================================== */
+
+/**
+   * Remove the margin in all browsers.
+   */
+
+body {
+  margin: 0;
+}
+
+/**
+   * Correct the font size and margin on `h1` elements within `section` and
+   * `article` contexts in Chrome, Firefox, and Safari.
+   */
+
+h1 {
+  font-size: 2em;
+  margin: 0.67em 0;
+}
+
+/* Grouping content
+     ========================================================================== */
+
+/**
+   * 1. Add the correct box sizing in Firefox.
+   * 2. Show the overflow in Edge and IE.
+   */
+
+hr {
+  box-sizing: content-box;
+  /* 1 */
+  height: 0;
+  /* 1 */
+  overflow: visible;
+  /* 2 */
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+pre {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/* Text-level semantics
+     ========================================================================== */
+
+/**
+   * Remove the gray background on active links in IE 10.
+   */
+
+a {
+  background-color: transparent;
+}
+
+/**
+   * 1. Remove the bottom border in Chrome 57-
+   * 2. Add the correct text decoration in Chrome, Edge, IE, Opera, and Safari.
+   */
+
+abbr[title] {
+  border-bottom: none;
+  /* 1 */
+  text-decoration: underline;
+  /* 2 */
+  -webkit-text-decoration: underline dotted;
+  text-decoration: underline dotted;
+  /* 2 */
+}
+
+/**
+   * Add the correct font weight in Chrome, Edge, and Safari.
+   */
+
+b,
+strong {
+  font-weight: bolder;
+}
+
+/**
+   * 1. Correct the inheritance and scaling of font size in all browsers.
+   * 2. Correct the odd `em` font sizing in all browsers.
+   */
+
+code,
+kbd,
+samp {
+  font-family: monospace, monospace;
+  /* 1 */
+  font-size: 1em;
+  /* 2 */
+}
+
+/**
+   * Add the correct font size in all browsers.
+   */
+
+small {
+  font-size: 80%;
+}
+
+/**
+   * Prevent `sub` and `sup` elements from affecting the line height in
+   * all browsers.
+   */
+
+sub,
+sup {
+  font-size: 75%;
+  line-height: 0;
+  position: relative;
+  vertical-align: baseline;
+}
+
+sub {
+  bottom: -0.25em;
+}
+
+sup {
+  top: -0.5em;
+}
+
+/* Embedded content
+     ========================================================================== */
+
+/**
+   * Remove the border on images inside links in IE 10.
+   */
+
+img {
+  border-style: none;
+}
+
+/* Forms
+     ========================================================================== */
+
+/**
+   * 1. Change the font styles in all browsers.
+   * 2. Remove the margin in Firefox and Safari.
+   */
+
+button,
+input,
+optgroup,
+select,
+textarea {
+  font-family: inherit;
+  /* 1 */
+  font-size: 100%;
+  /* 1 */
+  line-height: 1.15;
+  /* 1 */
+  margin: 0;
+  /* 2 */
+}
+
+/**
+   * Show the overflow in IE.
+   * 1. Show the overflow in Edge.
+   */
+
+button,
+input {
+  /* 1 */
+  overflow: visible;
+}
+
+/**
+   * Remove the inheritance of text transform in Edge, Firefox, and IE.
+   * 1. Remove the inheritance of text transform in Firefox.
+   */
+
+button,
+select {
+  /* 1 */
+  text-transform: none;
+}
+
+/**
+   * Correct the inability to style clickable types in iOS and Safari.
+   */
+
+button,
+[type="button"],
+[type="reset"],
+[type="submit"] {
+  -webkit-appearance: button;
+}
+
+/**
+   * Remove the inner border and padding in Firefox.
+   */
+
+button::-moz-focus-inner,
+[type="button"]::-moz-focus-inner,
+[type="reset"]::-moz-focus-inner,
+[type="submit"]::-moz-focus-inner {
+  border-style: none;
+  padding: 0;
+}
+
+/**
+   * Restore the focus styles unset by the previous rule.
+   */
+
+button:-moz-focusring,
+[type="button"]:-moz-focusring,
+[type="reset"]:-moz-focusring,
+[type="submit"]:-moz-focusring {
+  outline: 1px dotted ButtonText;
+}
+
+/**
+   * Correct the padding in Firefox.
+   */
+
+fieldset {
+  padding: 0.35em 0.75em 0.625em;
+}
+
+/**
+   * 1. Correct the text wrapping in Edge and IE.
+   * 2. Correct the color inheritance from `fieldset` elements in IE.
+   * 3. Remove the padding so developers are not caught out when they zero out
+   *    `fieldset` elements in all browsers.
+   */
+
+legend {
+  box-sizing: border-box;
+  /* 1 */
+  color: inherit;
+  /* 2 */
+  display: table;
+  /* 1 */
+  max-width: 100%;
+  /* 1 */
+  padding: 0;
+  /* 3 */
+  white-space: normal;
+  /* 1 */
+}
+
+/**
+   * Add the correct vertical alignment in Chrome, Firefox, and Opera.
+   */
+
+progress {
+  vertical-align: baseline;
+}
+
+/**
+   * Remove the default vertical scrollbar in IE 10+.
+   */
+
+textarea {
+  overflow: auto;
+}
+
+/**
+   * 1. Add the correct box sizing in IE 10.
+   * 2. Remove the padding in IE 10.
+   */
+
+[type="checkbox"],
+[type="radio"] {
+  box-sizing: border-box;
+  /* 1 */
+  padding: 0;
+  /* 2 */
+}
+
+/**
+   * Correct the cursor style of increment and decrement buttons in Chrome.
+   */
+
+[type="number"]::-webkit-inner-spin-button,
+[type="number"]::-webkit-outer-spin-button {
+  height: auto;
+}
+
+/**
+   * 1. Correct the odd appearance in Chrome and Safari.
+   * 2. Correct the outline style in Safari.
+   */
+
+[type="search"] {
+  -webkit-appearance: textfield;
+  /* 1 */
+  outline-offset: -2px;
+  /* 2 */
+}
+
+/**
+   * Remove the inner padding in Chrome and Safari on macOS.
+   */
+
+[type="search"]::-webkit-search-decoration {
+  -webkit-appearance: none;
+}
+
+/**
+   * 1. Correct the inability to style clickable types in iOS and Safari.
+   * 2. Change font properties to `inherit` in Safari.
+   */
+
+::-webkit-file-upload-button {
+  -webkit-appearance: button;
+  /* 1 */
+  font: inherit;
+  /* 2 */
+}
+
+/* Interactive
+     ========================================================================== */
+
+/*
+   * Add the correct display in Edge, IE 10+, and Firefox.
+   */
+
+details {
+  display: block;
+}
+
+/*
+   * Add the correct display in all browsers.
+   */
+
+summary {
+  display: list-item;
+}
+
+/* Misc
+     ========================================================================== */
+
+/**
+   * Add the correct display in IE 10+.
+   */
+
+template {
+  display: none;
+}
+
+/**
+   * Add the correct display in IE 10.
+   */
+
+[hidden] {
+  display: none;
+}
+
+*,
+*::after,
+*::before {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* roboto-regular - latin */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 400;
+  src: url(../fonts/roboto-v20-latin-regular.woff2) format("woff2"), url(../fonts/roboto-v20-latin-regular.woff) format("woff");
+  /* Modern Browsers */
+}
+
+/* roboto-500 - latin */
+
+@font-face {
+  font-family: 'Roboto';
+  font-style: normal;
+  font-weight: 500;
+  src: url(../fonts/roboto-v20-latin-500.woff2) format("woff2"), url(../fonts/roboto-v20-latin-500.woff) format("woff");
+  /* Modern Browsers */
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 auto;
+  min-width: 320px;
+  background-color: #77c1bb;
+}
+
+.header__logo {
+  padding: 22px 22px 22px 20px;
+  display: flex;
+  justify-content: space-between;
+  text-decoration: none;
+}
+
+.header__img {
+  cursor: pointer;
+}
+
+.header__logo-name {
+  display: none;
+}
+
+.header__nav {
+  display: flex;
+  justify-content: space-between;
+  margin-right: 14px;
+}
+
+.header__link {
+  display: block;
+  margin: 0;
+  padding: 24px 0 0 0;
+  width: 122px;
+  height: 58px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 12px;
+  letter-spacing: 0.01em;
+  text-transform: uppercase;
+  text-align: center;
+  text-decoration: none;
+  color: #514367;
+  background: none;
+  border: none;
+  outline: none;
+  cursor: pointer;
+}
+
+.header__link:hover {
+  color: #372c48;
+  border-bottom: 3px solid #372c48;
+}
+
+.footer__container {
+  margin: 0 auto;
+  min-width: 320px;
+  background-color: #77c1bb;
+}
+
+.footer__txt {
+  padding: 34px 0 36px 0;
+  font-family: 'Roboto';
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 16px;
+  color: #372c48;
+  text-align: center;
+}
+
+.button-fix {
+  z-index: 1;
+  display: none;
+  position: fixed;
+  margin-bottom: -20px;
+  bottom: 34px;
+  right: 20px;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  border: none;
+  background: none;
+  outline: none;
+  cursor: pointer;
+  box-shadow: 0 0 7px rgba(0, 0, 0, 0.55);
+  background-color: #77c1bb;
+  background-image: url(../images/button-fix.png);
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.film-card {
+  padding: 20px 22px;
+}
+
+.card-details {
+  width: 274px;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+.card-details__img {
+  display: block;
+  height: 402px;
+  width: 274px;
+  margin-bottom: 18px;
+  background-image: url("../images/default_poster.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.card-details__title,
+.card-details__about--title {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16.6px;
+  line-height: 20px;
+  color: #372c48;
+  margin-bottom: 12px;
+}
+
+.card-details__description {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13.3px;
+  line-height: 25.7px;
+  color: black;
+  margin-bottom: 20px;
+}
+
+.card-details__votes,
+.card-details__name,
+.card-details__popularity,
+.card-details__genre {
+  display: flex;
+  padding-left: 15px;
+}
+
+.card-details__votes--title,
+.card-details__name--title,
+.card-details__popularity--title,
+.card-details__genre--title {
+  width: 136px;
+}
+
+.card-details__votes--value,
+.card-details__name--value,
+.card-details__popularity--value,
+.card-details__genre--value {
+  max-width: 130px;
+}
+
+.card-details__votes,
+.card-details__name {
+  background-color: #addad6;
+}
+
+.card-details__about--text,
+.card-details__action-text {
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  color: #372c48;
+  margin-bottom: 12px;
+}
+
+.card-details__action-btn {
+  display: block;
+  margin: 0;
+  border: none;
+  background: none;
+  margin-right: auto;
+  margin-left: auto;
+  margin-bottom: 5px;
+  padding: 0;
+}
+
+.card-details__action-btn:hover {
+  cursor: pointer;
+}
+
+.card-details__action-text {
+  line-height: 30px;
+}
+
+.hide {
+  display: none;
+}
+
+.show {
+  display: block;
+}
+
+.search-form {
+  margin: 0px auto 0px;
+  position: relative;
+  width: 260px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+}
+
+.search__icon {
+  left: 0px;
+  position: absolute;
+}
+
+.search-form__input {
+  cursor: pointer;
+  padding-left: 25px;
+  padding-bottom: 5px;
+  margin: 0 auto;
+  width: 255px;
+  border: none;
+  border-bottom: 2px solid #9894a1;
+  outline: none;
+}
+
+.search {
+  box-shadow: 0px 5px 9px 1px rgba(0, 0, 0, 0.23);
+  margin-bottom: 30px;
+}
+
+.button_page {
+  margin: 0 auto;
+  width: 253px;
+  margin-bottom: 20px;
+}
+
+.page_prev {
+  cursor: pointer;
+  font-weight: 600;
+  font-size: 22px;
+  font-family: "Roboto";
+  color: #556270;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.004);
+  line-height: 1.143;
+  text-align: center;
+  outline: none;
+  border: none;
+  width: 98px;
+  border: 1px solid #dddddd;
+  height: 44px;
+  border-radius: 5px;
+  background: linear-gradient(to top, #f0f0f0 0%, rgba(240, 240, 240, 0) 100%);
+}
+
+.number_page {
+  font-weight: 600;
+  font-size: 22px;
+  color: #556270;
+  line-height: 1.143;
+  text-align: center;
+  outline: none;
+  border: none;
+  width: 42px;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  height: 44px;
+  border-radius: 5px;
+  background: linear-gradient(to top, #f0f0f0 0%, rgba(240, 240, 240, 0) 100%);
+}
+
+.page_next {
+  font-size: 22px;
+  font-family: "Roboto";
+  font-weight: 600;
+  color: #556270;
+  text-shadow: 0px 1px 1px rgba(255, 255, 255, 0.004);
+  line-height: 1.143;
+  text-align: center;
+  outline: none;
+  border: none;
+  width: 98px;
+  border: 1px solid #dddddd;
+  cursor: pointer;
+  height: 44px;
+  border-radius: 5px;
+  background: linear-gradient(to top, #f0f0f0 0%, rgba(240, 240, 240, 0) 100%);
+}
+
+.page_next:hover {
+  background: linear-gradient(to top, #d1cdcd 0%, rgba(248, 217, 217, 0.075) 100%);
+}
+
+.number_page:hover {
+  background: linear-gradient(to top, #d1cdcd 0%, rgba(248, 217, 217, 0.075) 100%);
+}
+
+.page_prev:hover {
+  background: linear-gradient(to top, #d1cdcd 0%, rgba(248, 217, 217, 0.075) 100%);
+}
+
+.page_next:active {
+  position: relative;
+  top: 1px;
+}
+
+.page_prev:active {
+  position: relative;
+  top: 1px;
+}
+
+.number_page:active {
+  position: relative;
+  top: 1px;
+}
+
+.disable {
+  opacity: 0;
+}
+
+.active {
+  opacity: 1;
+}
+
+.filmList {
+  margin: 0 auto;
+  margin-bottom: 20px;
+  width: 320px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  list-style: none;
+}
+
+.filmList__error {
+  display: block;
+  width: 100%;
+  text-align: center;
+  margin-bottom: 10px;
+  font-family: "Roboto", sans-serif;
+}
+
+.filmList__poster {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.filmList__item {
+  position: relative;
+  width: 300px;
+  height: 172px;
+  margin-bottom: 12px;
+  border-radius: 10px;
+  cursor: pointer;
+  overflow: hidden;
+  background-image: url("../images/default_image.jpg");
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
+.filmList__item:last-child {
+  margin-bottom: 0;
+}
+
+.filmList__item::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 300px;
+  height: 100%;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 60%, black);
+  z-index: 1;
+}
+
+.item__name {
+  position: absolute;
+  bottom: 6px;
+  left: 10px;
+  z-index: 2;
+  color: #fff;
+  font-family: "Roboto", sans-serif;
+  font-size: 12.3px;
+  font-weight: 500;
+}
+
+.myFilmLibraryPage__container {
+  margin: 0 auto;
+  width: 300px;
+}
+
+li {
+  list-style-type: none;
+  position: relative;
+}
+
+.myFilmLibraryPage__modes {
+  width: 100%;
+  height: 66px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.myFilmLibraryPage__modes button {
+  width: 142px;
+  height: 42px;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 400;
+  cursor: pointer;
+}
+
+.button__white {
+  background: none;
+  border: none;
+  border-bottom: 2px solid grey;
+}
+
+.button__colored {
+  background-color: #77c1bb;
+  border: none;
+  color: #fff;
+}
+
+.myFilmLibraryPage__modes button:hover {
+  background-color: #77c1bb;
+  color: #fff;
+  border: none;
+  transition: 0.2s;
+}
+
+.myFilmLibraryPage__film-card {
+  width: 100%;
+  position: relative;
+}
+
+.myFilmLibraryPage__film-card img {
+  width: 100%;
+}
+
+.myFilmLibraryPage__film-title {
+  color: #fff;
+  font-family: "Roboto";
+  font-size: 12.3px;
+  font-weight: 400;
+  position: absolute;
+  bottom: 20px;
+  left: 15px;
+  z-index: 2;
+}
+
+.myFilmLibraryPage__rating {
+  width: 31px;
+  height: 16px;
+  background-color: #fff;
+  border-radius: 10px;
+  color: #000;
+  font-family: "Roboto";
+  font-size: 16px;
+  font-weight: 500;
+  position: absolute;
+  right: 6px;
+  top: 6px;
+  text-align: center;
+  line-height: 16px;
+}
+
+.storage__empty {
+  font-size: 26px;
+  padding-top: 50px;
+  padding-bottom: 50px;
+}
+
+.film {
+  padding-bottom: 10px;
+}
+
+.film::before {
+  position: absolute;
+  display: block;
+  content: "";
+  width: 100%;
+  height: 95%;
+  border-radius: 10px;
+  background-image: linear-gradient(to bottom, rgba(255, 255, 255, 0) 0%, rgba(255, 255, 255, 0) 70%, black);
+  z-index: 1;
+}
+
+.film img {
+  border-radius: 10px;
+}
+
+.footer__link {
+  color: blue;
+  cursor: pointer;
+}
+
+.myTeam {
+  width: 100%;
+}
+
+.new__class {
+  text-align: center;
+  list-style: none;
+}
+
+.contacts {
+  margin: 30px auto;
+}
+
+.person {
+  margin-bottom: 15px;
+  font-size: 20px;
+  padding-top: 20px;
+}
+
+.person:last-child {
+  margin-bottom: 0;
+}
+
+.person__name {
+  font-size: 30px;
+  font-family: "Roboto";
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+
+.person__socials {
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  width: 150px;
+}
+
+.person__socials-icon {
+  background-size: contain;
+  background-repeat: no-repeat;
+  width: 40px;
+  height: 40px;
+}
+
+.person__socials-icon--github {
+  background-image: url("../images/github-sign.svg");
+}
+
+.person__socials-icon--facebook {
+  background-image: url("../images/facebook.svg");
+}
+
+.person__socials-icon--linkedin {
+  background-image: url("../images/linkedin.svg");
+}
+
+.non-active-section {
+  display: none;
+}
+
+.header__link--active {
+  color: #372c48;
+  border-bottom: 3px solid #372c48;
+}
+
+main {
+  min-height: calc(100vh - 86px - 64px);
+}
+
+@media (min-width: 768px) {
+  .header__logo-name {
+    display: block;
+    padding-left: 10px;
+    padding-top: 4px;
+    font-family: 'Roboto';
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 16px;
+    color: #514367;
+    text-decoration: none;
+  }
+
+  .button-fix {
+    display: none;
+  }
+
+  .card-details {
+    width: 724px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .card-details__img {
+    height: 526px;
+    width: 356px;
+  }
+
+  .card-details__title {
+    padding-top: 10px;
+    margin-bottom: 20px;
+  }
+
+  .card-details__wrapper {
+    width: 338px;
+  }
+
+  .card-details__votes--title,
+  .card-details__name--title,
+  .card-details__popularity--title,
+  .card-details__genre--title {
+    width: 168px;
+  }
+
+  .card-details__votes--value,
+  .card-details__name--value,
+  .card-details__popularity--value,
+  .card-details__genre--value {
+    max-width: 150px;
+  }
+
+  .card-details__description,
+  .card-details__about {
+    margin-bottom: 30px;
+  }
+
+  .card-details__actions {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .filmList {
+    width: 716px;
+    justify-content: space-between;
+  }
+
+  .filmList__item {
+    width: 346px;
+    height: 196px;
+  }
+
+  .filmList__item:nth-last-child(-n + 2) {
+    margin-bottom: 0;
+  }
+
+  .filmList__item::before {
+    width: 346px;
+  }
+
+  .item__name {
+    font-size: 14.3px;
+    bottom: 8px;
+  }
+
+  .myFilmLibraryPage__container {
+    margin: 0 auto;
+    width: 710px;
+  }
+
+  .myFilmLibraryPage__rating {
+    width: 40px;
+    height: 20px;
+    right: 8px;
+    top: 8px;
+    line-height: 20px;
+  }
+
+  .myFilmLibraryPage__film-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .myFilmLibraryPage__film-card li {
+    width: 346px;
+  }
+
+  .myFilmLibraryPage__film-title {
+    color: #fff;
+    font-family: "Roboto";
+    font-size: 14.3px;
+    font-weight: 400;
+    position: absolute;
+    bottom: 20px;
+    left: 15px;
+    z-index: 2;
+  }
+}
+
+@media (min-width: 1024px) {
+  .film-card {
+    padding: 26px 60px;
+  }
+
+  .card-details {
+    width: 904px;
+  }
+
+  .card-details__img {
+    height: 630px;
+    width: 438px;
+  }
+
+  .card-details__wrapper {
+    width: 430px;
+  }
+
+  .card-details__votes--title,
+  .card-details__name--title,
+  .card-details__popularity--title,
+  .card-details__genre--title {
+    width: 214px;
+  }
+
+  .card-details__votes--value,
+  .card-details__name--value,
+  .card-details__popularity--value,
+  .card-details__genre--value {
+    max-width: 200px;
+  }
+
+  .card-details__actions {
+    width: 70%;
+  }
+
+  .filmList {
+    width: 964px;
+  }
+
+  .filmList__item {
+    width: 468px;
+    height: 267px;
+  }
+
+  .filmList__item::before {
+    width: 468px;
+  }
+
+  .item__name {
+    font-size: 19.2px;
+    bottom: 10px;
+  }
+
+  .myFilmLibraryPage__container {
+    margin: 0 auto;
+    width: 956px;
+  }
+
+  .myFilmLibraryPage__film-card {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+
+  .myFilmLibraryPage__film-title {
+    font-size: 19.2px;
+  }
+
+  .myFilmLibraryPage__film-card li {
+    width: 466px;
+  }
+}
